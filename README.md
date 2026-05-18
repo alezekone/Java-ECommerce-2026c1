@@ -1,23 +1,41 @@
 ## Getting Started
 
-Esto es solo una entrega para cumplir con el plazo para entregar un link. Espero entregar un código que cumpla lo solicitado para antes del domingo 17/mayo a las 23:59hs.
+Cumple con las siguientes opciones del menú:
+0. Precargar productos de prueba
+1. Agregar nuevo producto
+2. Listar productos
+3. Eliminar producto
+4. Buscar/Actualizar producto
+7. Salir
+
+Aún está pendiente:
+
+5. Crear un pedido
+6. Listar pedidos
+
 Desde ya, mil disculpas.
 
+## Detalles de implementación
 
+1.- Se utilizaron métodos polimórficos para "Eliminar producto" y "Buscar / Actualizar producto". Los métodos correspondientes aceptan el id o el nombre
+del producto de nuestro interés, manteniendo el nombre pero encontrándose 
+sobrecargados para aceptar argumentos de tipos distintos (int / String).
 
+2.- Se utilizaron una variable estática para llevar la cantidad de productos creados, la cual es utilizada para asignar un id distinto a cada uno de estos.
 
 
 ## Folder Structure
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+model
+-Producto.java
+-CatalogoProductos.java
+-Pedido.java
+-AlmacenPedidos.java
+ui
+-Menu.java
+App.java
+.gitignore
 
 ## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Por el momento, no hay dependencias que se administren con gestores tales como Gradle o Maven.

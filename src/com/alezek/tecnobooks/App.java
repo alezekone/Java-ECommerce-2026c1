@@ -4,7 +4,7 @@ import com.alezek.tecnobooks.ui.Menu;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        System.out.println("Bienvenido al sistema de gestión de Tecnobooks");
         Menu.mostrar();
     }
 }
