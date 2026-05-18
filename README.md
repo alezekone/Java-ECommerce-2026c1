@@ -31,9 +31,12 @@ model
 - CatalogoProductos.java
 - Pedido.java
 - AlmacenPedidos.java
+
 ui
 - Menu.java
+
 App.java
+
 .gitignore
 
 ## Dependency Management
