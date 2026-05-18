@@ -1,6 +1,7 @@
 ## Getting Started
 
 Cumple con las siguientes opciones del menú:
+
 0. Precargar productos de prueba
 1. Agregar nuevo producto
 2. Listar productos
@@ -18,8 +19,7 @@ Desde ya, mil disculpas.
 ## Detalles de implementación
 
 1.- Se utilizaron métodos polimórficos para "Eliminar producto" y "Buscar / Actualizar producto". Los métodos correspondientes aceptan el id o el nombre
-del producto de nuestro interés, manteniendo el nombre pero encontrándose 
-sobrecargados para aceptar argumentos de tipos distintos (int / String).
+del producto de nuestro interés, manteniendo el nombre pero encontrándose sobrecargados para aceptar argumentos de tipos distintos (int / String).
 
 2.- Se utilizaron una variable estática para llevar la cantidad de productos creados, la cual es utilizada para asignar un id distinto a cada uno de estos.
 
@@ -27,12 +27,12 @@ sobrecargados para aceptar argumentos de tipos distintos (int / String).
 ## Folder Structure
 
 model
--Producto.java
--CatalogoProductos.java
--Pedido.java
--AlmacenPedidos.java
+- Producto.java
+- CatalogoProductos.java
+- Pedido.java
+- AlmacenPedidos.java
 ui
--Menu.java
+- Menu.java
 App.java
 .gitignore
 
